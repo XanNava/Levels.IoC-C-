@@ -1,5 +1,5 @@
 # Levels.IoC-CS
-A C# Interface(eventually also reflection when needed) IoC library. Trying to focus on clarity and understandability. Still need to test performance.
+A C# Interface(eventually also reflection when wanted) IoC library. Trying to focus on clarity and understandability. Still need to test performance.
 
 There isn't too much to learn if you want to use this. My terminology probably will be a bit different than normal DI systems.
 I would start by looking at DI.Injection.cs this is what you will implement classes with to be injected.
