@@ -1,4 +1,4 @@
-# Levels.IoC-C-
+# Levels.IoC-CS
 A C# Interface(eventually also reflection when needed) IoC library. Trying to focus on clarity and understandability. Still need to test performance.
 
 There isn't too much to learn if you want to use this. My terminology probably will be a bit different than normal DI systems.
