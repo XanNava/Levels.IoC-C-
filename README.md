@@ -6,7 +6,7 @@ I would start by looking at DI.Injection.cs this is what you will implement clas
 There are a few test injectables at the bottom of the script.
 Scope Doesn't hold most of the logic, it is more used as a key to Exports<>.
 I will be updating this over the next few days. With some name changes and a better tutorial.
-There is also Unity3D integration if you are interested, but the specific functionality for Unity is a WIP, but base functionality works there.
+There is also Unity3D integration if you are interested, but the specific functionality for Unity is a WIP, but base functionality works there, also needs code-generation for the cleanest aproach.
 
 Also, I know my use of interface features in the way I do (default implementations not for just throwing unimplemented errors) is a bit forbidden.
 However, my philosophy here is interfaces are a contract for functionality, since the functionality doesn't change for most of the interface, and the parts that do act normal,
