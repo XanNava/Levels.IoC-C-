@@ -2,9 +2,6 @@
 using System.Security.Cryptography;
 using System.Text;
 
-// TODO: make a string ID like PropertyName, will also need to make an IEquatable for PropertyName.
-
-
 namespace Levels.Universal {
 	using ScopeKey = String.ID<DI.Scope>;
 	public partial class DI {
