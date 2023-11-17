@@ -13,6 +13,6 @@ However, my philosophy here is interfaces are a contract for functionality, sinc
 we are still honoring that principle. It allows us to avoid boiler plate code. Likewise, this could be achieved from inheriting another class, but at
 The core all we are doing is saying we have the injection functionality, where inheritance should relate more to identity.
 
-This currently uses reflection for one thing but will update as new .net C# features allow me to switch it out. This reflection functionality has to do with IsInjectable.GetAttribute, it is virtual so just set up the DI.Settings in your class if you want. I do have another library that I made that uses reflection for normal reflection functionality like constructors, method, and field injection. My plan is to integrate the two, so you can choose when to use reflection for those functionalities, and when to use the interface for performance.
+This currently uses reflection for one thing but will update as new .net C# features allow me to switch it out. This reflection functionality has to do with creating default classes. I do have another library that I made that uses reflection for normal reflection functionality like constructors, method, and field injection. My plan is to integrate the two, so you can choose when to use reflection for those functionalities, and when to use the interface for performance.
 
 Feel free to message me.
